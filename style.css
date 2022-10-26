@@ -91,10 +91,46 @@ button {
 
 @media (max-width: 768px) {
   .carousel-item > img {
-    height: 600px;
+    margin-top: 30%;
+    height: 100%;
+    width: 100%;
   }
+  .header-area {
+    background: rgba(255, 255, 255, 0.7);
+}
+.header-area .navbar-left .btn-bar .fa-bars {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
 }
 
+.header-area .navbar-middle .logo {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+}
+
+.header-area .navbar-right .cart-btn {
+  border: none;
+  background: transparent;
+  position: relative;
+}
+
+.header-area .navbar-right .cart-btn .cart-items {
+  position: absolute;
+  right: -1rem;
+  top: -0.875rem;
+  padding: 0 6px;
+  font-size: 0.875rem;
+  border-radius: 30%;
+  background-color: #FFB338;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.header-area .navbar-right .cart-btn .fa-cart-shopping {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+}
+}
 .banner-area .banner-content {
   position: absolute;
   width: 100%;
