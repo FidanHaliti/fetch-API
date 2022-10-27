@@ -23,15 +23,29 @@ button {
   width: 100%;
   top: 0;
   left: 0;
+  
 }
 
 .header-area .navbar {
-  padding: 2.125rem 0;
+  padding: 2rem; /* ndryshim */
 }
 
 @media (max-width: 768px) {
   .header-area .navbar {
-    padding: 2.125rem 0.75rem;
+    padding: 1rem; /* ndryshim */
+  }
+  
+  .header-area .navbar-left .btn-bar .fa-bars {
+    font-size: 0.5rem;
+    color: #fff;
+  }
+  .header-area .navbar-middle .logo {
+    color: #fff;
+    font-size: 1rem;
+  }
+  .header-area .navbar-right .cart-btn .fa-cart-shopping {
+    font-size: 1rem;
+    color: #fff;
   }
 }
 
@@ -39,6 +53,7 @@ button {
   border: none;
   background: transparent;
 }
+
 
 .header-area .navbar-left .btn-bar .fa-bars {
   font-size: 2rem;
@@ -91,21 +106,33 @@ button {
 
 @media (max-width: 768px) {
   .carousel-item > img {
-    margin-top: 30%;
+    margin-top: 20%;
     height: 100%;
     width: 100%;
+    
+    
   }
+
+
+  .carousel-control-next-icon{
+    margin-top: 50px;
+    
+  }.carousel-control-prev-icon{
+    margin-top: 50px;
+  }
+  
   .header-area {
     background: rgba(255, 255, 255, 0.7);
+    
 }
 .header-area .navbar-left .btn-bar .fa-bars {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: rgb(0, 0, 0);
 }
 
 .header-area .navbar-middle .logo {
   color: rgb(0, 0, 0);
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .header-area .navbar-right .cart-btn {
@@ -119,7 +146,7 @@ button {
   right: -1rem;
   top: -0.875rem;
   padding: 0 6px;
-  font-size: 0.875rem;
+  font-size: 0.675rem;
   border-radius: 30%;
   background-color: #FFB338;
   color: rgb(255, 255, 255);
@@ -127,7 +154,7 @@ button {
 }
 
 .header-area .navbar-right .cart-btn .fa-cart-shopping {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: rgb(0, 0, 0);
 }
 }
