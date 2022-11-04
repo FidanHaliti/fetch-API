@@ -112,9 +112,7 @@ button {
     
     
   }
-element.styles{
-  font-size: 10px;
-}
+
 
   .carousel-control-next-icon{
     margin-top: 50px;
@@ -126,10 +124,7 @@ element.styles{
     margin-top: 50px;
     width: 25px
   }
-  .carousel-indicators, button{
-    margin: auto;
-    width: 70px;
-  }
+ 
   
   .header-area {
     background: rgba(255, 255, 255, 0.7);
